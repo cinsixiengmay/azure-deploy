@@ -103,9 +103,9 @@
           "storageProfile": {
             "imageReference": {
               "publisher": "accessdata-group",
-              "offer": "adlab64-sw-cloud",
+              "offer": "adlab64-sw-cloud-preview",
               "sku": "22000111",
-              "version": "1.0.1"
+              "version": "latest"
             },
             "osDisk": {
               "createOption": "FromImage",
@@ -183,7 +183,12 @@
                 }
               }
             ]
-          }
+          },
+          "plan": {
+                "name": "22000111",
+                "publisher": "accessdata-group",
+                "product": "adlab64-sw-cloud-preview"
+            }	          
         }
       }
     },
